@@ -8,4 +8,4 @@ RUN apt-get update && \
 
 RUN R -e "install.packages('BiocManager'); BiocManager::install(c('DESeq2', 'Biostrings'))"
 
-CMD["R"]
+CMD ["R"]
